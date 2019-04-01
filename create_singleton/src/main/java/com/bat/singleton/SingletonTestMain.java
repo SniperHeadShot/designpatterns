@@ -4,7 +4,7 @@ import com.bat.singleton.hungry.HungrySingleton;
 import com.bat.singleton.lazy.LazySingleton;
 import com.bat.singleton.sychronzied.SychronizedSingleton;
 
-public class TestMain {
+public class SingletonTestMain {
     public static void main(String[] args) {
         //验证饿汉式
         for (int i = 0; i < 10; i++) {

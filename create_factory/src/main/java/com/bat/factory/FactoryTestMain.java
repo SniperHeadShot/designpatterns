@@ -4,7 +4,7 @@ import com.bat.factory.factory.Factory;
 import com.bat.factory.factory.FactoryB;
 import com.bat.factory.product.Product;
 
-public class TestMain {
+public class FactoryTestMain {
     public static void main(String[] args) {
         Factory factory = new FactoryB();
         Product product = factory.product();
