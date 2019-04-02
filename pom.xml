@@ -13,6 +13,7 @@
         <module>create_singleton</module>
         <module>create_factory</module>
         <module>create_builder</module>
+        <module>create_prototype</module>
     </modules>
 
 </project>
