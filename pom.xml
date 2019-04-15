@@ -15,6 +15,7 @@
         <module>create_builder</module>
         <module>create_prototype</module>
         <module>action_memento</module>
+        <module>action_strategy</module>
     </modules>
 
 </project>
