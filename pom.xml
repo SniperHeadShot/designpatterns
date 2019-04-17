@@ -17,6 +17,7 @@
         <module>action_memento</module>
         <module>action_strategy</module>
         <module>action_iterator</module>
+        <module>action_visitor</module>
     </modules>
 
 </project>
