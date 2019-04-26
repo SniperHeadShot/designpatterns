@@ -1,8 +1,9 @@
 package com.bat;
 
+import com.bat.jdk.JDKClient;
+import com.bat.jdk.WechatServer;
 import com.bat.observer.Observer;
 import com.bat.observer.ObserverClient;
-import com.bat.subject.WechatServer;
 
 /**
  * @ClassName ObserverTestMain
@@ -13,7 +14,8 @@ import com.bat.subject.WechatServer;
  **/
 public class ObserverTestMain {
     public static void main(String[] args) {
-        WechatServer wechatServer = new WechatServer();
+        System.out.println("-- -- -- -手写观察者模式代码部分- -- -- --");
+        com.bat.subject.WechatServer wechatServer = new com.bat.subject.WechatServer();
 
         Observer observer1 = new ObserverClient("刘备");
         Observer observer2 = new ObserverClient("关羽");
@@ -25,9 +27,21 @@ public class ObserverTestMain {
 
         wechatServer.broadcastInformation("Hello 观察者模式!");
 
-        System.out.println("-- -- -- -- -- -- --");
-
         wechatServer.removeObserver(observer1);
         wechatServer.broadcastInformation("Hello 有人在接收吗?");
+        System.out.println("-- -- -- -JDK自带观察者模式代码部分- -- -- --");
+        WechatServer wechatServerJdk = new WechatServer();
+
+        JDKClient observer1Jdk = new JDKClient("刘备");
+        JDKClient observer2Jdk = new JDKClient("关羽");
+        JDKClient observer3Jdk = new JDKClient("张飞");
+
+        wechatServerJdk.addObserver(observer1Jdk);
+        wechatServerJdk.addObserver(observer2Jdk);
+        wechatServerJdk.addObserver(observer3Jdk);
+
+        wechatServerJdk.setChanged();
+        wechatServerJdk.notifyObservers("Hello JDK自带的观察者模式!");
+        wechatServerJdk.clearChanged();
     }
 }
