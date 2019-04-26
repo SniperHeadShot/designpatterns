@@ -18,6 +18,7 @@
         <module>action_strategy</module>
         <module>action_iterator</module>
         <module>action_visitor</module>
+        <module>action_observer</module>
     </modules>
 
 </project>
