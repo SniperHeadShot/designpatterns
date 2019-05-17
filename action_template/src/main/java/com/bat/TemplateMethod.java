@@ -19,11 +19,11 @@ public abstract class TemplateMethod {
     protected abstract void primitiveOperation2();
 
     /**
-     * @描述 逻辑方法，给出逻辑的骨架
+     * @描述 逻辑方法，给出逻辑的骨架,为防止恶意操作，一般模板方法都加上 final 关键词
      * @创建人 ZhengYu
      * @创建时间 2019/5/17
      */
-    public void templateMethod() {
+    public final void templateMethod() {
         primitiveOperation1();
         primitiveOperation2();
     }
