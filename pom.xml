@@ -20,6 +20,7 @@
         <module>action_visitor</module>
         <module>action_observer</module>
         <module>action_template</module>
+        <module>action_responsibilitychain</module>
     </modules>
 
 </project>
