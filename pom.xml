@@ -21,6 +21,7 @@
         <module>action_observer</module>
         <module>action_template</module>
         <module>action_responsibilitychain</module>
+        <module>action_command</module>
     </modules>
 
 </project>
