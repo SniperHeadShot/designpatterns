@@ -22,6 +22,7 @@
         <module>action_template</module>
         <module>action_responsibilitychain</module>
         <module>action_command</module>
+        <module>action_state</module>
     </modules>
 
 </project>
