@@ -23,6 +23,7 @@
         <module>action_responsibilitychain</module>
         <module>action_command</module>
         <module>action_state</module>
+        <module>action_mediator</module>
     </modules>
 
 </project>
