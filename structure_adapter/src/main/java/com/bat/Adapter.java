@@ -11,7 +11,6 @@ public class Adapter implements TargetClass {
 
     private NeedAdapterClass needAdapterClass = new NeedAdapterClass();
 
-    @Override
     public void request() {
         needAdapterClass.request();
     }
