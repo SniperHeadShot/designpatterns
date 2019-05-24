@@ -9,5 +9,12 @@ package com.bat;
  **/
 public interface TargetClass {
 
+    /**
+     * @Param
+     * @Return
+     * @Author ZhengYu
+     * @Description: 客户所需要的接口，具体可以是具体的或者抽象的类，也可以是接口
+     * @Date 2019/5/24
+     */
     void request();
 }

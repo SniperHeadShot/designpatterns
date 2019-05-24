@@ -11,6 +11,13 @@ public class Adapter implements TargetClass {
 
     private NeedAdapterClass needAdapterClass = new NeedAdapterClass();
 
+    /**
+     * @Param []
+     * @Return void
+     * @Author ZhengYu
+     * @Description: 适配方法
+     * @Date 2019/5/24
+     */
     public void request() {
         needAdapterClass.request();
     }

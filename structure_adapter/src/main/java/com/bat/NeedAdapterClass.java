@@ -9,6 +9,13 @@ package com.bat;
  **/
 public class NeedAdapterClass {
 
+    /**
+     * @Param []
+     * @Return void
+     * @Author ZhengYu
+     * @Description: 现有的方法
+     * @Date 2019/5/24
+     */
     public void request(){
         System.out.println("NeedAdapterClass do something!");
     }
