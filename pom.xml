@@ -26,6 +26,7 @@
         <module>action_mediator</module>
         <module>structure_adapter</module>
         <module>structure_decorator</module>
+        <module>structure_proxy</module>
     </modules>
 
 </project>
