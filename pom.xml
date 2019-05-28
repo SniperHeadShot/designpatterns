@@ -27,6 +27,7 @@
         <module>structure_adapter</module>
         <module>structure_decorator</module>
         <module>structure_proxy</module>
+        <module>structure_facade</module>
     </modules>
 
 </project>
