@@ -28,6 +28,7 @@
         <module>structure_decorator</module>
         <module>structure_proxy</module>
         <module>structure_facade</module>
+        <module>structure_bridge</module>
     </modules>
 
 </project>
