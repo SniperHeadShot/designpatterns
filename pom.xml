@@ -29,6 +29,7 @@
         <module>structure_proxy</module>
         <module>structure_facade</module>
         <module>structure_bridge</module>
+        <module>structure_composite</module>
     </modules>
 
 </project>
