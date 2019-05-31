@@ -30,6 +30,7 @@
         <module>structure_facade</module>
         <module>structure_bridge</module>
         <module>structure_composite</module>
+        <module>structure_flyweight</module>
     </modules>
 
 </project>
