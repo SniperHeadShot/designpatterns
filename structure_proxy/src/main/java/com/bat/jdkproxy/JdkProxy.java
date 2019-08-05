@@ -6,7 +6,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * JDK动态代理
+ * JDK 动态代理
  *
  * @author ZhengYu
  * @version 1.0 2019/8/3 18:05
