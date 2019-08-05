@@ -6,7 +6,7 @@ package com.bat;
  * @author ZhengYu
  * @version 1.0 2019/8/3 18:05
  **/
-public class RealAbstractSubject extends AbstractSubject {
+public class RealAbstractSubject implements AbstractSubject {
 
     @Override
     public void request() {

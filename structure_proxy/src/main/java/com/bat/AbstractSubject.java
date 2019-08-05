@@ -6,12 +6,12 @@ package com.bat;
  * @author ZhengYu
  * @version 1.0 2019/8/3 18:05
  **/
-public abstract class AbstractSubject {
+public interface AbstractSubject {
 
     /**
      * 接口功能
      *
      * @author ZhengYu
      */
-    public abstract void request();
+    void request();
 }

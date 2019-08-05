@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
  * @version 1.0 2019/8/3 18:05
  **/
 @Slf4j
-public class Proxy extends AbstractSubject {
+public class Proxy implements AbstractSubject {
 
     private AbstractSubject abstractSubject;
 
