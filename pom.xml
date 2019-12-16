@@ -4,41 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bat</groupId>
+    <groupId>com.bat.design</groupId>
     <artifactId>designpatterns</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>create_singleton</module>
-        <module>create_factory</module>
-        <module>create_builder</module>
-        <module>create_prototype</module>
-        <module>action_memento</module>
-        <module>action_strategy</module>
-        <module>action_iterator</module>
-        <module>action_visitor</module>
-        <module>action_observer</module>
-        <module>action_template</module>
-        <module>action_responsibilitychain</module>
-        <module>action_command</module>
-        <module>action_state</module>
-        <module>action_mediator</module>
-        <module>structure_adapter</module>
-        <module>structure_decorator</module>
-        <module>structure_proxy</module>
-        <module>structure_facade</module>
-        <module>structure_bridge</module>
-        <module>structure_composite</module>
-        <module>structure_flyweight</module>
-        <module>action_interpreter</module>
+        <module>$01observer</module>
     </modules>
 
     <dependencies>
         <dependency>
-            <groupId>com.bat</groupId>
-            <artifactId>common</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>com.bat.springcloud</groupId>
+            <artifactId>commoncode</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
