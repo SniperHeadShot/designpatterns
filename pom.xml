@@ -11,6 +11,7 @@
 
     <modules>
         <module>$01observer</module>
+        <module>$02strategy</module>
     </modules>
 
     <dependencies>
